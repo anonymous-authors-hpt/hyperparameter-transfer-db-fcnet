@@ -1,0 +1,22 @@
+{
+  "development_steps": [
+    {
+      "name": "dev step 1",
+      "description": "Fully connected network for tabular protein data.",
+      "commit": "507d01d7c070b6e479e3bf39ae8ddbc426ba29c8",
+      "hporesults": "hporesults/step1.json"
+    },
+    {
+      "name": "dev step 2",
+      "description": "Changed activation function to ReLU.",
+      "commit": "bc3d7f0207988acc0f76c4abc69eb1224aa52eab",
+      "hporesults": "hporesults/step2.json"
+    },
+    {
+      "name": "dev step 3",
+      "description": "Changed learning rate schedule to cosine decay.",
+      "commit": "bf437241a6ad18436308d78f7085378d0e809e8a",
+      "hporesults": "hporesults/step3.json"
+    }
+  ]
+}

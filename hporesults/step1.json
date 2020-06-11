@@ -1,0 +1,432 @@
+{
+    "configspace": {
+        "n_units_1": {
+            "lower": 0,
+            "upper": 5,
+            "type": "integer"
+        },
+        "n_units_2": {
+            "lower": 0,
+            "upper": 5,
+            "type": "integer"
+        },
+        "dropout_1": {
+            "lower": 0,
+            "upper": 2,
+            "type": "integer"
+        },
+        "dropout_2": {
+            "lower": 0,
+            "upper": 2,
+            "type": "integer"
+        },
+        "init_lr": {
+            "lower": 0,
+            "upper": 5,
+            "type": "integer"
+        },
+        "batch_size": {
+            "lower": 0,
+            "upper": 3,
+            "type": "integer"
+        }
+    },
+    "trials": [
+        {
+            "config": {
+                "batch_size": 3,
+                "dropout_1": 0,
+                "dropout_2": 1,
+                "init_lr": 2,
+                "n_units_1": 3,
+                "n_units_2": 5
+            },
+            "loss": 0.36957257986068726
+        },
+        {
+            "config": {
+                "batch_size": 3,
+                "dropout_1": 0,
+                "dropout_2": 1,
+                "init_lr": 5,
+                "n_units_1": 3,
+                "n_units_2": 3
+            },
+            "loss": 0.5979359745979309
+        },
+        {
+            "config": {
+                "batch_size": 3,
+                "dropout_1": 1,
+                "dropout_2": 2,
+                "init_lr": 3,
+                "n_units_1": 3,
+                "n_units_2": 2
+            },
+            "loss": 0.38886114954948425
+        },
+        {
+            "config": {
+                "batch_size": 3,
+                "dropout_1": 1,
+                "dropout_2": 2,
+                "init_lr": 1,
+                "n_units_1": 0,
+                "n_units_2": 2
+            },
+            "loss": 0.42706137895584106
+        },
+        {
+            "config": {
+                "batch_size": 1,
+                "dropout_1": 1,
+                "dropout_2": 2,
+                "init_lr": 3,
+                "n_units_1": 4,
+                "n_units_2": 5
+            },
+            "loss": 0.6688219904899597
+        },
+        {
+            "config": {
+                "batch_size": 0,
+                "dropout_1": 2,
+                "dropout_2": 1,
+                "init_lr": 2,
+                "n_units_1": 3,
+                "n_units_2": 5
+            },
+            "loss": 0.5862134695053101
+        },
+        {
+            "config": {
+                "batch_size": 1,
+                "dropout_1": 2,
+                "dropout_2": 2,
+                "init_lr": 0,
+                "n_units_1": 4,
+                "n_units_2": 3
+            },
+            "loss": 0.38389304280281067
+        },
+        {
+            "config": {
+                "batch_size": 0,
+                "dropout_1": 2,
+                "dropout_2": 1,
+                "init_lr": 2,
+                "n_units_1": 5,
+                "n_units_2": 0
+            },
+            "loss": 0.4157617390155792
+        },
+        {
+            "config": {
+                "batch_size": 3,
+                "dropout_1": 1,
+                "dropout_2": 2,
+                "init_lr": 0,
+                "n_units_1": 0,
+                "n_units_2": 2
+            },
+            "loss": 0.4384051263332367
+        },
+        {
+            "config": {
+                "batch_size": 1,
+                "dropout_1": 1,
+                "dropout_2": 0,
+                "init_lr": 4,
+                "n_units_1": 2,
+                "n_units_2": 0
+            },
+            "loss": 0.501211404800415
+        },
+        {
+            "config": {
+                "batch_size": 2,
+                "dropout_1": 0,
+                "dropout_2": 1,
+                "init_lr": 5,
+                "n_units_1": 2,
+                "n_units_2": 3
+            },
+            "loss": 1.0971269607543945
+        },
+        {
+            "config": {
+                "batch_size": 0,
+                "dropout_1": 2,
+                "dropout_2": 1,
+                "init_lr": 0,
+                "n_units_1": 3,
+                "n_units_2": 5
+            },
+            "loss": 0.3913941979408264
+        },
+        {
+            "config": {
+                "batch_size": 0,
+                "dropout_1": 0,
+                "dropout_2": 2,
+                "init_lr": 1,
+                "n_units_1": 3,
+                "n_units_2": 3
+            },
+            "loss": 0.37797027826309204
+        },
+        {
+            "config": {
+                "batch_size": 0,
+                "dropout_1": 1,
+                "dropout_2": 1,
+                "init_lr": 0,
+                "n_units_1": 3,
+                "n_units_2": 5
+            },
+            "loss": 0.3637610375881195
+        },
+        {
+            "config": {
+                "batch_size": 3,
+                "dropout_1": 1,
+                "dropout_2": 2,
+                "init_lr": 5,
+                "n_units_1": 2,
+                "n_units_2": 5
+            },
+            "loss": 5.62727689743042
+        },
+        {
+            "config": {
+                "batch_size": 3,
+                "dropout_1": 1,
+                "dropout_2": 2,
+                "init_lr": 2,
+                "n_units_1": 5,
+                "n_units_2": 5
+            },
+            "loss": 0.4806064963340759
+        },
+        {
+            "config": {
+                "batch_size": 2,
+                "dropout_1": 0,
+                "dropout_2": 1,
+                "init_lr": 4,
+                "n_units_1": 1,
+                "n_units_2": 5
+            },
+            "loss": 2.0905919075012207
+        },
+        {
+            "config": {
+                "batch_size": 0,
+                "dropout_1": 0,
+                "dropout_2": 1,
+                "init_lr": 0,
+                "n_units_1": 3,
+                "n_units_2": 2
+            },
+            "loss": 0.32964515686035156
+        },
+        {
+            "config": {
+                "batch_size": 0,
+                "dropout_1": 0,
+                "dropout_2": 0,
+                "init_lr": 0,
+                "n_units_1": 3,
+                "n_units_2": 2
+            },
+            "loss": 0.3085569143295288
+        },
+        {
+            "config": {
+                "batch_size": 0,
+                "dropout_1": 0,
+                "dropout_2": 2,
+                "init_lr": 2,
+                "n_units_1": 4,
+                "n_units_2": 4
+            },
+            "loss": 0.4462340474128723
+        },
+        {
+            "config": {
+                "batch_size": 0,
+                "dropout_1": 1,
+                "dropout_2": 0,
+                "init_lr": 1,
+                "n_units_1": 3,
+                "n_units_2": 2
+            },
+            "loss": 0.3442015051841736
+        },
+        {
+            "config": {
+                "batch_size": 2,
+                "dropout_1": 2,
+                "dropout_2": 0,
+                "init_lr": 4,
+                "n_units_1": 3,
+                "n_units_2": 0
+            },
+            "loss": 0.4736730456352234
+        },
+        {
+            "config": {
+                "batch_size": 2,
+                "dropout_1": 0,
+                "dropout_2": 1,
+                "init_lr": 4,
+                "n_units_1": 2,
+                "n_units_2": 0
+            },
+            "loss": 0.4583602547645569
+        },
+        {
+            "config": {
+                "batch_size": 1,
+                "dropout_1": 1,
+                "dropout_2": 0,
+                "init_lr": 0,
+                "n_units_1": 3,
+                "n_units_2": 1
+            },
+            "loss": 0.3397139310836792
+        },
+        {
+            "config": {
+                "batch_size": 1,
+                "dropout_1": 0,
+                "dropout_2": 0,
+                "init_lr": 0,
+                "n_units_1": 2,
+                "n_units_2": 4
+            },
+            "loss": 0.3205548822879791
+        },
+        {
+            "config": {
+                "batch_size": 2,
+                "dropout_1": 0,
+                "dropout_2": 0,
+                "init_lr": 0,
+                "n_units_1": 3,
+                "n_units_2": 2
+            },
+            "loss": 0.3188837468624115
+        },
+        {
+            "config": {
+                "batch_size": 1,
+                "dropout_1": 0,
+                "dropout_2": 0,
+                "init_lr": 0,
+                "n_units_1": 2,
+                "n_units_2": 5
+            },
+            "loss": 0.3240261673927307
+        },
+        {
+            "config": {
+                "batch_size": 0,
+                "dropout_1": 1,
+                "dropout_2": 2,
+                "init_lr": 1,
+                "n_units_1": 2,
+                "n_units_2": 4
+            },
+            "loss": 0.41177457571029663
+        },
+        {
+            "config": {
+                "batch_size": 0,
+                "dropout_1": 0,
+                "dropout_2": 0,
+                "init_lr": 0,
+                "n_units_1": 3,
+                "n_units_2": 2
+            },
+            "loss": 0.3085569143295288
+        },
+        {
+            "config": {
+                "batch_size": 1,
+                "dropout_1": 0,
+                "dropout_2": 1,
+                "init_lr": 3,
+                "n_units_1": 3,
+                "n_units_2": 1
+            },
+            "loss": 0.3330497741699219
+        },
+        {
+            "config": {
+                "batch_size": 3,
+                "dropout_1": 1,
+                "dropout_2": 2,
+                "init_lr": 5,
+                "n_units_1": 0,
+                "n_units_2": 4
+            },
+            "loss": 1.255989909172058
+        },
+        {
+            "config": {
+                "batch_size": 1,
+                "dropout_1": 0,
+                "dropout_2": 0,
+                "init_lr": 0,
+                "n_units_1": 2,
+                "n_units_2": 3
+            },
+            "loss": 0.3164045810699463
+        },
+        {
+            "config": {
+                "batch_size": 1,
+                "dropout_1": 0,
+                "dropout_2": 0,
+                "init_lr": 0,
+                "n_units_1": 3,
+                "n_units_2": 1
+            },
+            "loss": 0.32273542881011963
+        },
+        {
+            "config": {
+                "batch_size": 0,
+                "dropout_1": 0,
+                "dropout_2": 0,
+                "init_lr": 0,
+                "n_units_1": 3,
+                "n_units_2": 2
+            },
+            "loss": 0.3085569143295288
+        },
+        {
+            "config": {
+                "batch_size": 2,
+                "dropout_1": 0,
+                "dropout_2": 0,
+                "init_lr": 0,
+                "n_units_1": 2,
+                "n_units_2": 4
+            },
+            "loss": 0.32970261573791504
+        },
+        {
+            "config": {
+                "batch_size": 2,
+                "dropout_1": 0,
+                "dropout_2": 1,
+                "init_lr": 2,
+                "n_units_1": 0,
+                "n_units_2": 2
+            },
+            "loss": 0.3521522879600525
+        }
+    ]
+}
